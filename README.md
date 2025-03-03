@@ -30,7 +30,7 @@ A simple cryptocurrency price tracker built with **Next.js** for real-time price
 ### **1️⃣ Clone the Repository**  
 ```sh
 git clone https://github.com/your-username/crypto-tracker.git
-cd crypto-tracker
+cd web-app
 npm install 
 npm run dev
 ``` 
