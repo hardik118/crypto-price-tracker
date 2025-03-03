@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+body {
+  background: 
+    repeating-linear-gradient(0deg, rgba(119, 119, 119, 0.1) 0px, rgba(119, 119, 119, 0.1) 1px, transparent 1px, transparent 40px), 
+    repeating-linear-gradient(90deg, rgba(119, 119, 119, 0.1) 0px, rgba(119, 119, 119, 0.1) 1px, transparent 1px, transparent 40px); 
+  background-color: white;
+  background-size: 40px 40px; 
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
